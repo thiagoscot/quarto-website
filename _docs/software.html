@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Methods in Causal Inference, Data Science and Social Science">
 
-<title>Drew Dimmery</title>
+<title>Drew Dimmery - Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,16 +63,15 @@ gtag('js', new Date());
 gtag('config', 'G-Y7YLFF5F90', { 'anonymize_ip': true});
 </script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Drew Dimmery">
-<meta property="og:description" content="Methods in Causal Inference, Data Science and Social Science">
-<meta property="og:image" content="https://ddimmery.com/social-card.jpg">
+<meta property="og:title" content="Drew Dimmery - Software">
 <meta property="og:site-name" content="Drew Dimmery">
-<meta name="twitter:title" content="Drew Dimmery">
-<meta name="twitter:description" content="Methods in Causal Inference, Data Science and Social Science">
-<meta name="twitter:image" content="https://ddimmery.com/social-card.jpg">
+<meta name="twitter:title" content="Drew Dimmery - Software">
 <meta name="twitter:creator" content="@drewdim">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -93,7 +91,7 @@ gtag('config', 'G-Y7YLFF5F90', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
@@ -102,7 +100,7 @@ gtag('config', 'G-Y7YLFF5F90', { 'anonymize_ip': true});
     <a class="nav-link" href="./research.html">Research</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html">Software</a>
+    <a class="nav-link active" href="./software.html" aria-current="page">Software</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html">Blog</a>
@@ -114,25 +112,28 @@ gtag('config', 'G-Y7YLFF5F90', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#tidyhte" id="toc-tidyhte" class="nav-link active" data-scroll-target="#tidyhte"><code>tidyhte</code></a></li>
+  <li><a href="#regweight" id="toc-regweight" class="nav-link" data-scroll-target="#regweight"><code>regweight</code></a></li>
+  <li><a href="#rdd" id="toc-rdd" class="nav-link" data-scroll-target="#rdd"><code>rdd</code></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Drew Dimmery</h1>
+<h1 class="title">Software</h1>
 </div>
 
-<div>
-  <div class="description">
-    Methods in Causal Inference, Data Science and Social Science
-  </div>
-</div>
 
 
 
@@ -146,43 +147,39 @@ gtag('config', 'G-Y7YLFF5F90', { 'anonymize_ip': true});
 
 </header>
 
-<div class="column-page-inset page-columns page-full">
-<div class="column-page-inset-left">
-<p>I am the scientific coordinator at the Data Science Research Network at the University of Vienna.</p>
-<p>I previously worked on the Adaptive Experimentation team at Facebook Core Data Science in New York.</p>
-<p>My research focuses on the intersection of machine learning and causal inference. I work a lot on experimental design and I think hard about how experimentation can be better and more efficient. I’m also interested in better applying the machinery of machine learning to observational causal inference.</p>
-<p>I’m most interested in methodological research useful for the study of social phenomena.</p>
-</div>
-<div class="column-margin column-container">
-<p><img src="headshot.jpg" class="rounded img-fluid"></p>
-</div>
-</div>
-<div style="page-break-after: always;"></div>
-<div class="column-page-inset text-center">
-<a class="btn btn-outline-dark" ,="" href="https://twitter.com/DrewDim" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-twitter" role="img" aria-label="Twitter"></i>
-</a>
-
-<a class="btn btn-outline-dark" ,="" href="https://github.com/ddimmery" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-github" role="img" aria-label="Github"></i>
-</a>
-
-<a class="btn btn-outline-dark" ,="" href="https://www.linkedin.com/in/drew-dimmery/" target="_blank" rel="noopener noreferrer">
-    <i class="bi bi-linkedin" role="img" aria-label="LinkedIn"></i>
-</a>
-
-<a class="btn btn-outline-dark" ,="" href="https://scholar.google.com/citations?user=qMfnm48AAAAJ" target="_blank" rel="noopener noreferrer">
-    <i class="ai ai-google-scholar" role="img" aria-label="Google Scholar"></i>
-</a>
-
-<a class="btn btn-outline-dark" ,="" href="https://arxiv.org/a/dimmery_d_1.html" target="_blank" rel="noopener noreferrer">
-    <i class="ai ai-arxiv" role="img" aria-label="arXiv"></i>
-</a>
-
-<a class="btn btn-outline-dark" ,="" href="mailto:pddimmery@gmail.com" target="_blank" rel="noopener noreferrer">
-    <i class="ai bi-envelope" role="img" aria-label="email"></i>
-</a>
-</div>
+<h2 id="tidyhte" class="anchored"><code>tidyhte</code></h2>
+<p><code>tidyhte</code> provides tidy semantics for estimation of heterogeneous treatment effects through the use of Kennedy’s (n.d.) doubly-robust learner.<br>
+The goal of <code>tidyhte</code> is to use a sort of “recipe” design. This should (hopefully) make it extremely easy to scale an analysis of HTE from the common single-outcome / single-moderator case to many outcomes and many moderators. The configuration of <code>tidyhte</code> should make it extremely easy to perform the same analysis across many outcomes and for a wide-array of moderators. It’s written to be fairly easy to extend to different models and to add additional diagnostics and ways to output information from a set of HTE estimates.</p>
+<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/tidyhte/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-info" role="img" aria-label="Website"></i>
+        Website
+    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/tidyhte" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role="img" aria-label="Github"></i>
+        Github
+    </a>
+<h2 id="regweight" class="anchored"><code>regweight</code></h2>
+<p>The goal of <code>regweight</code> is to make it easy to diagnose a model using Aronow and Samii (2015) regression weights.<br>
+In short, these weights show which observations are most influential for determining the observed value of a coefficient in a linear regression. If the linear regression is aiming to estimate causal effects, this implies that the OLS estimand may differ from the average treatment effect. These linear regression weights provide, in some sense, the most precise estimate available given a conditioning set (and a linear model). These weights are in expectation the conditional variance of the variable of interest (given the other covariates in the model).</p>
+<a class="btn btn-outline-dark btn-sm" ,="" href="https://ddimmery.github.io/regweight/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-info" role="img" aria-label="Website"></i>
+        Website
+    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/regweight" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role="img" aria-label="Github"></i>
+        Github
+    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=regweight" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
+        Package
+    </a>
+<h2 id="rdd" class="anchored"><code>rdd</code></h2>
+<p><strong>Outdated!</strong> Users should switch to <a href="https://rdpackages.github.io/">actively maintained and updated RD tools</a>.<br>
+Provides the tools to undertake estimation in Regression Discontinuity Designs. Both sharp and fuzzy designs are supported. Estimation is accomplished using local linear regression. A provided function will utilize Imbens-Kalyanaraman optimal bandwidth calculation. A function is also included to test the assumption of no-sorting effects.</p>
+<a class="btn btn-outline-dark btn-sm" ,="" href="https://github.com/ddimmery/rdd" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github" role="img" aria-label="Github"></i>
+        Github
+    </a> <a class="btn btn-outline-dark btn-sm" ,="" href="https://cran.r-project.org/package=rdd" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-box-seam" role="img" aria-label="Package"></i>
+        Package
+    </a>
 
 
 
